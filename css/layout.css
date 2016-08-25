@@ -1,0 +1,67 @@
+img{
+	width: 100%;
+}
+.slider{
+	position: relative;
+}
+.slider img{
+	position: absolute;
+}
+.tagline{
+	position: relative;
+}
+.tagline span{
+	position: absolute;
+	top:280px;
+	font-size: 50;
+	color: #fff;
+	text-shadow: 10px;
+	background: rgba(57, 174, 197,0.7);
+	padding: 20px 0px;
+	width: 100%;
+}
+.header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	background: rgba(255,255,255,1);
+	width: 100%;
+	padding: 20px;
+	color:#555;
+	font-size: 18;
+}
+.logo{
+	font-size: 20;
+	display: inline-block;
+}
+.text{
+	width: 80%;
+	margin: 0 auto;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	margin-right: 25px;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px 15px;
+}
+.menu ul li a:hover{
+	background: #999;
+	border-radius: 10px;
+	color: #fff;
+}
+input{
+	height: 34px;
+}
+.form-control{
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+}
