@@ -37,6 +37,9 @@
 							</div>	
 						</div>
 						</div>
+					</div>
+					<div class="row">
+						<div class="img"><img src="http://localhost/visit/5ea63f912c239b124a52f847a2d7e72d4215500f-4ee3d.jpg"></div>
 					</div>';
 		}
 		public function footer(){

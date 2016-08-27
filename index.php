@@ -6,4 +6,5 @@
 	$view = new View();
 	$view->header();
 	$view->footer();
+	
 ?>
