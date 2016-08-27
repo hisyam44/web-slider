@@ -16,7 +16,7 @@ img{
 	font-size: 50;
 	color: #fff;
 	text-shadow: 10px;
-	background: rgba(57, 174, 197,0.7);
+	background: rgba(0, 0, 0,0.5);
 	padding: 20px 0px;
 	width: 100%;
 }
@@ -53,7 +53,7 @@ img{
 	padding: 10px 15px;
 }
 .menu ul li a:hover{
-	background: #999;
+	background: #049dee;
 	border-radius: 10px;
 	color: #fff;
 }
@@ -64,4 +64,32 @@ input{
 	display: block;
 	width: 100%;
 	padding: 6px 12px;
+}
+.panel{
+	margin-right: 10px;
+}
+.panel-header{
+	padding: 10px 15px;
+	font-weight: bold;
+}
+.panel-main{
+	border-bottom: 1px solid #049dee;
+	font-size: 20;
+	text-align: center;
+	color: #049dee;
+}
+.panel-body{
+	padding: 15px 15px;
+	text-align: justify;
+}
+.box{
+	border: 1px solid #bbb;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.box:hover{
+	opacity: 0.5;
+}
+.space{
+	padding-top: 40px;
 }
